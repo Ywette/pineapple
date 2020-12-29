@@ -26,18 +26,23 @@
         </header>
 
         <div class="base">
-            <h1> Subscribe to newsletter</h1>
+            <img class="success-logo" alt="Success Logo" src="ic_success.png">
+            <h1 id="main-thought">Subscribe to newsletter</h1>
             <p class="subheading">Subscribe to our newsletter and get 10% discount on pineapple glasses.</p>
-            <form class="form-container">    
+            
+            <form class="form-container" id="form">    
                 <div class="input-submit-container">
                     <input type="email" id="email" placeholder="Type tour email address here...">
-                    <i class="fas fa-arrow-right" id="submit"></i>
+                    <i class="fas fa-arrow-right" id="submit" type="submit" onclick="submit()"></i> 
                 </div>
+                <span id="emailError"></span>                   
+
                 
-                <div class="tos">
+                <div class="checkbox-container">
                     <input type="checkbox" id="check">
-                    <label for="check">I agree<a href="#">terms of service</a></label><br>
+                    <label for="check">I agree<a href="#">terms of service</a></label>
                 </div>
+                <span id="checkboxError"></span> 
             </form>
             
             <div class="social-icons">
@@ -52,6 +57,6 @@
     <div class="right-container">
         <img class="right-image" src="image_summer.png" alt="Picture With Pineapples">
     </div>
-
+<script src="script.js"></script>
 </body>
 </html>
