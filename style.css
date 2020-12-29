@@ -100,6 +100,8 @@ h1{
 }
 
 p{
+    display: block;
+    width:100%;
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
@@ -124,6 +126,7 @@ p{
     border-left: 4px solid #4066A5;   
     padding-left: 40px;
     margin: 24px 0;
+    /* height: 90%; */
 }
 .input-submit-container:hover{
     box-shadow: 0 3rem 3.5rem rgba(106, 112, 123, .3);    
@@ -134,9 +137,7 @@ p{
 #email{
     border: none;
     width: 90%;
-    background-color: white;    
     outline: none;
-    height: 90%;
 }
 
 #submit{    
@@ -159,7 +160,7 @@ input:-webkit-autofill:active {
 
 /* STYLING CHECKBOX */
 
-.tos{
+.checkbox-container{
     display: flex;
     align-items: center;      
 }
@@ -291,4 +292,16 @@ input[type="checkbox"]:checked{
     /* height: 100vh;   */
     background-color: aquamarine; 
     background-image: url("image_summer.png");
+}
+.error{
+    color: #FF0000;    
+    font-family: arial; 
+    font-size: 16px;
+    
+}
+.success-logo{
+    display:none;
+    width: 44px;
+    height:70px;
+    
 }
