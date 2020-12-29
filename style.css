@@ -297,6 +297,7 @@ input[type="checkbox"]:checked{
     color: #FF0000;    
     font-family: arial; 
     font-size: 16px;
+    display:inline;
     
 }
 .success-logo{
