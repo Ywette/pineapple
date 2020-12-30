@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pineapple</title>
+    <script src="https://kit.fontawesome.com/cc699a714f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-media.css">
+</head>
+<body>    
+    <div class="main">
+        <header class="top-bar">
+            <div class="logo">
+                <img class="pineapple-logo" src="union.svg" alt="pineapple logo">
+                <span class="logo=name">pineapple.</span>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>    
+        </header>
+
+        <div class="base">
+            <img class="success-logo" alt="Success Logo" src="ic_success.png">
+            <h1 id="heading">Subscribe to newsletter</h1>
+            <p class="subheading">Subscribe to our newsletter and get 10% discount on pineapple glasses.</p>
+            
+            <form class="form-container" id="form">    
+                <div class="input-submit-container">
+                    <input type="email" id="email" placeholder="Type tour email address here...">
+                    <i class="fas fa-arrow-right" id="submit" onclick="submit()"></i> 
+                </div>
+                <span id="emailError"></span>                   
+
+                
+                <div class="checkbox-container">
+                    <input type="checkbox" id="check">
+                    <label for="check">I agree<a href="#">terms of service</a></label>
+                </div>
+                <span id="checkboxError"></span> 
+            </form>
+            
+            <div class="social-icons">
+                <a href="#"><i class="soc fab fa-facebook-f"></i></a>
+                <a href="#"><i class="soc fab fa-instagram"></i></a>
+                <a href="#"><i class="soc fab fa-twitter"></i></a>
+                <a href="#"><i class="soc fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-container">
+        <img class="right-image" src="image_summer.png" alt="Picture With Pineapples">
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
