@@ -15,4 +15,10 @@ It contains some images used in site.
 
 ## OPEN THIS PROJECT LOCALLY
 1. Create folder where you would like to run this project
-2. 
+2. Dowload project:
+    *or downloadding a folder, extracting and open in your coding programm,
+    *or open in your Github theough Desktop,
+    *or use commands in your terminal.
+
+## RUN PROGRAM IN BROWSER
+Click this link to see project in action.
