@@ -15,9 +15,8 @@ submit = () => {
 
 
 validateEmpty = () => {
-
   if (document.getElementById('email').value ===""){
-    document.getElementById('emailError').innerText = "Provide email";
+    document.getElementById('emailError').innerText = "Please provide a valid e-mail address";
     document.getElementById('emailError').className = "error";
     return false;
   }
@@ -52,18 +51,16 @@ validateCheck = () => {
     document.getElementById('checkboxError').innerText = "";
     return true;
   } else {   
-      // alert("NOOOOOOOOOO");
     document.getElementById('checkboxError').innerText = "You must accept the terms and conditions";
     document.getElementById('checkboxError').className = "error";
     return false;
   }
 } 
 
-runSuccessMsg = () => {  
-  
+runSuccessMsg = () => {    
   document.getElementsByClassName('success-logo')[0].style.display = "inline-block";    
-  document.getElementById('main-thought').innerText = "Thanks for subscribing!"    
+  document.getElementById('heading').innerText = "Thanks for subscribing!"    
   document.getElementsByClassName('subheading')[0].innerText = "You have successfully subscribed to our email listing. Check your email for the discount code."
   document.getElementsByClassName('form-container')[0].style.display = "none"; 
-  document.getElementById('emailError').style.display = "none";       
+  document.getElementById('emailError').style.display = "none";      
 }
