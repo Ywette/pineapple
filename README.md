@@ -14,10 +14,10 @@ It contains some images used in site.
 4. Fontaswesome icons
 
 ## OPEN THIS PROJECT LOCALLY
-1. Create folder where you would like to run this project
+1. Create folder where you would like to run this project.
 2. Dowload project:
-    * or downloadding a folder, extracting and open in your coding programm,
-    * or open in your Github theough Desktop,
+    * download a folder, extract it and open in your coding programm,
+    * or open in your Github through Desktop,
     * or use commands in your terminal.
 
 ## RUN PROGRAM IN BROWSER
