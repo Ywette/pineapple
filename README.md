@@ -16,10 +16,10 @@ It contains some images used in site.
 ## OPEN THIS PROJECT LOCALLY
 1. Create folder where you would like to run this project.
 2. Dowload project:
-    * download a folder, extract it and open in your coding programm,
-    * or open in your Github through Desktop,
-    * or use commands in your terminal.
+    * download a folder from github to your computer, extract it and open in your coding programm,
+    * or open it through Github Desktop,
+    * or use commands from your command terminal.
 
 ## RUN PROGRAM IN BROWSER
-Click this link to see project in action.
+Click this link to see project in actual action.
 https://pineapple-project.netlify.app
